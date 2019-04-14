@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042DC6F321F56D0E004793A2 /* AlbumDetailCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC6F221F56D0E004793A2 /* AlbumDetailCountry.swift */; };
+		0430031721F314D000862CC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430031621F314D000862CC0 /* AppDelegate.swift */; };
+		0430031921F314D000862CC0 /* AlbumCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430031821F314D000862CC0 /* AlbumCountryViewController.swift */; };
+		0430031C21F314D000862CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430031A21F314D000862CC0 /* Main.storyboard */; };
+		0430031E21F314D100862CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0430031D21F314D100862CC0 /* Assets.xcassets */; };
+		0430032121F314D100862CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0430031F21F314D100862CC0 /* LaunchScreen.storyboard */; };
+		0430032E21F3164800862CC0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0430032D21F3164800862CC0 /* icon.png */; };
+		0430033021F3165600862CC0 /* vietnam.png in Resources */ = {isa = PBXBuildFile; fileRef = 0430032F21F3165600862CC0 /* vietnam.png */; };
+		0430033221F316F100862CC0 /* Albumcountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430033121F316F100862CC0 /* Albumcountry.swift */; };
+		0430033421F31EED00862CC0 /* AbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430033321F31EED00862CC0 /* AbumTableViewCell.swift */; };
+		0489355D21F6158F0075A2EE /* quocgia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0489355C21F6158F0075A2EE /* quocgia.jpg */; };
+		04A033A521FC2AC100511509 /* UrlApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A033A421FC2AC100511509 /* UrlApi.swift */; };
+		04A033AD21FC488200511509 /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A033AC21FC488200511509 /* CheckInternet.swift */; };
+		04BC88F821F5AEB100DA9540 /* Back.ico in Resources */ = {isa = PBXBuildFile; fileRef = 04BC88F721F5AEB100DA9540 /* Back.ico */; };
+		04EDACD721F4B92900A8E74E /* AbumDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDACD621F4B92900A8E74E /* AbumDetailTableViewCell.swift */; };
+		04EDACDB21F4CC2B00A8E74E /* AbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDACDA21F4CC2B00A8E74E /* AbumDetailViewController.swift */; };
+		04FD974921F83028000DA102 /* OpenCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD974821F83028000DA102 /* OpenCountry.swift */; };
+		04FD974B21F83135000DA102 /* traidat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FD974A21F83135000DA102 /* traidat.jpg */; };
+		04FD974E21F836B7000DA102 /* numberCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD974D21F836B7000DA102 /* numberCountry.swift */; };
+		CB8423A04EFF8855C8A8CA17 /* Pods_LAMLAI_alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B44A46BC02E52AF90B1E5C3 /* Pods_LAMLAI_alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042DC6F221F56D0E004793A2 /* AlbumDetailCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailCountry.swift; sourceTree = "<group>"; };
+		0430031321F314D000862CC0 /* LAMLAI alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LAMLAI alamofire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0430031621F314D000862CC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0430031821F314D000862CC0 /* AlbumCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCountryViewController.swift; sourceTree = "<group>"; };
+		0430031B21F314D000862CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0430031D21F314D100862CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0430032021F314D100862CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0430032221F314D100862CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0430032D21F3164800862CC0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0430032F21F3165600862CC0 /* vietnam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vietnam.png; sourceTree = "<group>"; };
+		0430033121F316F100862CC0 /* Albumcountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albumcountry.swift; sourceTree = "<group>"; };
+		0430033321F31EED00862CC0 /* AbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbumTableViewCell.swift; sourceTree = "<group>"; };
+		0489355C21F6158F0075A2EE /* quocgia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quocgia.jpg; sourceTree = "<group>"; };
+		04A033A421FC2AC100511509 /* UrlApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlApi.swift; sourceTree = "<group>"; };
+		04A033AC21FC488200511509 /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		04BC88F721F5AEB100DA9540 /* Back.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Back.ico; sourceTree = "<group>"; };
+		04EDACD621F4B92900A8E74E /* AbumDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbumDetailTableViewCell.swift; sourceTree = "<group>"; };
+		04EDACDA21F4CC2B00A8E74E /* AbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbumDetailViewController.swift; sourceTree = "<group>"; };
+		04FD974821F83028000DA102 /* OpenCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCountry.swift; sourceTree = "<group>"; };
+		04FD974A21F83135000DA102 /* traidat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = traidat.jpg; sourceTree = "<group>"; };
+		04FD974D21F836B7000DA102 /* numberCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberCountry.swift; sourceTree = "<group>"; };
+		434759792C6892322F0F6526 /* Pods-LAMLAI alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAMLAI alamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAMLAI alamofire/Pods-LAMLAI alamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		51D36681473DB5E1412A8901 /* Pods-LAMLAI alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAMLAI alamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-LAMLAI alamofire/Pods-LAMLAI alamofire.release.xcconfig"; sourceTree = "<group>"; };
+		9B44A46BC02E52AF90B1E5C3 /* Pods_LAMLAI_alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAMLAI_alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0430031021F314D000862CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8423A04EFF8855C8A8CA17 /* Pods_LAMLAI_alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0419039921F89E50003AD902 /* Apiurl */ = {
+			isa = PBXGroup;
+			children = (
+				04A033A421FC2AC100511509 /* UrlApi.swift */,
+			);
+			path = Apiurl;
+			sourceTree = "<group>";
+		};
+		0430030A21F314D000862CC0 = {
+			isa = PBXGroup;
+			children = (
+				0430031521F314D000862CC0 /* LAMLAI alamofire */,
+				0430031421F314D000862CC0 /* Products */,
+				C24857B3E11320A22008C76F /* Pods */,
+				A4B035E74F6DFFA82A9627FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0430031421F314D000862CC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0430031321F314D000862CC0 /* LAMLAI alamofire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0430031521F314D000862CC0 /* LAMLAI alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				04FD974C21F83679000DA102 /* numberCountry */,
+				0430032A21F315BD00862CC0 /* photo */,
+				0430032921F315B000862CC0 /* model */,
+				0430032821F3159C00862CC0 /* controller */,
+				0430031A21F314D000862CC0 /* Main.storyboard */,
+				0430031621F314D000862CC0 /* AppDelegate.swift */,
+				0430031D21F314D100862CC0 /* Assets.xcassets */,
+				0430031F21F314D100862CC0 /* LaunchScreen.storyboard */,
+				0430032221F314D100862CC0 /* Info.plist */,
+			);
+			path = "LAMLAI alamofire";
+			sourceTree = "<group>";
+		};
+		0430032821F3159C00862CC0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				04FD974821F83028000DA102 /* OpenCountry.swift */,
+				0430031821F314D000862CC0 /* AlbumCountryViewController.swift */,
+				04EDACDA21F4CC2B00A8E74E /* AbumDetailViewController.swift */,
+				0419039921F89E50003AD902 /* Apiurl */,
+				049E8E9221F7673200E929C3 /* Cell */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0430032921F315B000862CC0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04A033AC21FC488200511509 /* CheckInternet.swift */,
+				0430033121F316F100862CC0 /* Albumcountry.swift */,
+				042DC6F221F56D0E004793A2 /* AlbumDetailCountry.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0430032A21F315BD00862CC0 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				04FD974A21F83135000DA102 /* traidat.jpg */,
+				0489355C21F6158F0075A2EE /* quocgia.jpg */,
+				04BC88F721F5AEB100DA9540 /* Back.ico */,
+				0430032F21F3165600862CC0 /* vietnam.png */,
+				0430032D21F3164800862CC0 /* icon.png */,
+			);
+			path = photo;
+			sourceTree = "<group>";
+		};
+		049E8E9221F7673200E929C3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0430033321F31EED00862CC0 /* AbumTableViewCell.swift */,
+				04EDACD621F4B92900A8E74E /* AbumDetailTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		04FD974C21F83679000DA102 /* numberCountry */ = {
+			isa = PBXGroup;
+			children = (
+				04FD974D21F836B7000DA102 /* numberCountry.swift */,
+			);
+			path = numberCountry;
+			sourceTree = "<group>";
+		};
+		A4B035E74F6DFFA82A9627FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B44A46BC02E52AF90B1E5C3 /* Pods_LAMLAI_alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C24857B3E11320A22008C76F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				434759792C6892322F0F6526 /* Pods-LAMLAI alamofire.debug.xcconfig */,
+				51D36681473DB5E1412A8901 /* Pods-LAMLAI alamofire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0430031221F314D000862CC0 /* LAMLAI alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0430032521F314D100862CC0 /* Build configuration list for PBXNativeTarget "LAMLAI alamofire" */;
+			buildPhases = (
+				9C4887B7D22AF4F45DB892A3 /* [CP] Check Pods Manifest.lock */,
+				0430030F21F314D000862CC0 /* Sources */,
+				0430031021F314D000862CC0 /* Frameworks */,
+				0430031121F314D000862CC0 /* Resources */,
+				4945912FAC5A915DCA38D7F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LAMLAI alamofire";
+			productName = "LAMLAI alamofire";
+			productReference = 0430031321F314D000862CC0 /* LAMLAI alamofire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0430030B21F314D000862CC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "anh vu";
+				TargetAttributes = {
+					0430031221F314D000862CC0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0430030E21F314D000862CC0 /* Build configuration list for PBXProject "LAMLAI alamofire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0430030A21F314D000862CC0;
+			productRefGroup = 0430031421F314D000862CC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0430031221F314D000862CC0 /* LAMLAI alamofire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0430031121F314D000862CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BC88F821F5AEB100DA9540 /* Back.ico in Resources */,
+				0430033021F3165600862CC0 /* vietnam.png in Resources */,
+				0489355D21F6158F0075A2EE /* quocgia.jpg in Resources */,
+				04FD974B21F83135000DA102 /* traidat.jpg in Resources */,
+				0430032E21F3164800862CC0 /* icon.png in Resources */,
+				0430032121F314D100862CC0 /* LaunchScreen.storyboard in Resources */,
+				0430031E21F314D100862CC0 /* Assets.xcassets in Resources */,
+				0430031C21F314D000862CC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4945912FAC5A915DCA38D7F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LAMLAI alamofire/Pods-LAMLAI alamofire-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/Snowflake/Snowflake.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSVG/SwiftSVG.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Macaw.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Snowflake.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSVG.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LAMLAI alamofire/Pods-LAMLAI alamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4887B7D22AF4F45DB892A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LAMLAI alamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0430030F21F314D000862CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0430033221F316F100862CC0 /* Albumcountry.swift in Sources */,
+				0430033421F31EED00862CC0 /* AbumTableViewCell.swift in Sources */,
+				04A033A521FC2AC100511509 /* UrlApi.swift in Sources */,
+				042DC6F321F56D0E004793A2 /* AlbumDetailCountry.swift in Sources */,
+				0430031921F314D000862CC0 /* AlbumCountryViewController.swift in Sources */,
+				04EDACDB21F4CC2B00A8E74E /* AbumDetailViewController.swift in Sources */,
+				0430031721F314D000862CC0 /* AppDelegate.swift in Sources */,
+				04A033AD21FC488200511509 /* CheckInternet.swift in Sources */,
+				04FD974921F83028000DA102 /* OpenCountry.swift in Sources */,
+				04EDACD721F4B92900A8E74E /* AbumDetailTableViewCell.swift in Sources */,
+				04FD974E21F836B7000DA102 /* numberCountry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0430031A21F314D000862CC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0430031B21F314D000862CC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0430031F21F314D100862CC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0430032021F314D100862CC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0430032321F314D100862CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0430032421F314D100862CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0430032621F314D100862CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434759792C6892322F0F6526 /* Pods-LAMLAI alamofire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LAMLAI alamofire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anhvu.LAMLAI-alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0430032721F314D100862CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D36681473DB5E1412A8901 /* Pods-LAMLAI alamofire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LAMLAI alamofire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anhvu.LAMLAI-alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0430030E21F314D000862CC0 /* Build configuration list for PBXProject "LAMLAI alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0430032321F314D100862CC0 /* Debug */,
+				0430032421F314D100862CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0430032521F314D100862CC0 /* Build configuration list for PBXNativeTarget "LAMLAI alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0430032621F314D100862CC0 /* Debug */,
+				0430032721F314D100862CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0430030B21F314D000862CC0 /* Project object */;
+}

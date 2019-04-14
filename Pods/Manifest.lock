@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AlamofireImage (3.5.0):
+    - Alamofire (~> 4.8)
+  - Macaw (0.9.3):
+    - SWXMLHash
+  - ReachabilitySwift (4.3.0)
+  - Snowflake (0.3.0)
+  - SwiftSVG (2.2.0)
+  - SWXMLHash (4.7.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Macaw
+  - ReachabilitySwift
+  - Snowflake
+  - SwiftSVG
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Macaw
+    - ReachabilitySwift
+    - Snowflake
+    - SwiftSVG
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireImage: 1aea346f4dda2f6c67622fa5a89fcbb80d79cc16
+  Macaw: e370d81f465ea1daa8a72d2afa218000bcd24f0a
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  Snowflake: dcae0e16c39ff6301eb3797d96dbe70142760c53
+  SwiftSVG: 19bc4e434dcf236ece45ddf75f5ee1d3ef8061e6
+  SWXMLHash: f6e0933ce74f2626669dc544851bc9fc1941670d
+
+PODFILE CHECKSUM: 03ed0805793b451b8c12cefdc60d53023c6efaf4
+
+COCOAPODS: 1.5.3
